@@ -466,11 +466,13 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('众生皆苦|唯有你一般甜| 陈 霞 |❤');
+      S.UI.simulate('众生皆苦|唯有你很甜| 陈 霞 |愿你每天|每时|每刻|逗如现在一般|开心|快乐|❤');
     }
 
     S.Drawing.loop(function () {
-      S.Shape.render();
+	setInterval(()=>{
+      		S.Shape.render();
+          },20000)
     });
   }
 };

@@ -42,7 +42,6 @@
 </head>
 <body>
 <div class="page page-thunder-to-text">
-	<!-- <input id="input" type="text" maxlength="24" placeholder="I love you!"> -->
 	<canvas id="canvas"></canvas>
 </div>
 
@@ -251,7 +250,6 @@ function render() {
 (function () {
     //
     canvas = document.getElementById('canvas');
-    // input = document.getElementById('input');
     ctx = canvas.getContext('2d');
     w = window.innerWidth;
     h = window.innerHeight;
@@ -276,15 +274,7 @@ function render() {
         }));
     });
     let cb = 0;
-    // input.addEventListener('keyup', (e) => {
-    //     clearTimeout(cb);
-    //     cb = setTimeout(() => {
-    //         text = new Text({
-    //             copy: input.value
-    //         });
-    //     }, 300);
-    // });
-    //
+  
     loop();
 })()</script>
 

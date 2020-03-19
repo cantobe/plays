@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>雷电文本</title>
+<title>Love</title>
 
 
 <style>
@@ -42,7 +42,7 @@
 </head>
 <body>
 <div class="page page-thunder-to-text">
-	<input id="input" type="text" maxlength="24" placeholder="I love you!">
+<!-- 	<input id="input" type="text" maxlength="24" placeholder="I love you!"> -->
 	<canvas id="canvas"></canvas>
 </div>
 
@@ -251,7 +251,7 @@ function render() {
 (function () {
     //
     canvas = document.getElementById('canvas');
-    input = document.getElementById('input');
+//     input = document.getElementById('input');
     ctx = canvas.getContext('2d');
     w = window.innerWidth;
     h = window.innerHeight;
@@ -261,7 +261,7 @@ function render() {
     particles = [];
     //
     text = new Text({
-        copy: 'Anh Yêu Em!'
+        copy: '陈 霞'
     });
     canvas.addEventListener('click', (e) => {
         const x = e.clientX;
@@ -276,14 +276,14 @@ function render() {
         }));
     });
     let cb = 0;
-    input.addEventListener('keyup', (e) => {
-        clearTimeout(cb);
-        cb = setTimeout(() => {
-            text = new Text({
-                copy: input.value
-            });
-        }, 300);
-    });
+//     input.addEventListener('keyup', (e) => {
+//         clearTimeout(cb);
+//         cb = setTimeout(() => {
+//             text = new Text({
+//                 copy: input.value
+//             });
+//         }, 300);
+//     });
     //
     loop();
 })()</script>

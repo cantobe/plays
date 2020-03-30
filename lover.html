@@ -201,12 +201,13 @@
         mydiv.innerHTML += str.charAt(i);
         var oBtn = document.getElementById('btn');
         i++;
-        var id = setTimeout(typing,200);
+        var id = setTimeout(typing,300);
         if(i==str.length){
             clearTimeout(id);
             mydiv.value ="";
             mydiv.innerHTML +=""
             play.loop = false
+	    paly.muted = true
             //alert("程序执行完毕！");
         }
         

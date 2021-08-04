@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>简历</title>
+    <!-- 引入swiper对应的js和css -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="js/swiper.min.js"></script>
+    <!-- 引入swiper animate相应的js和css -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <script src="js/swiper.animate1.0.3.min.js"></script>
+
+    <!-- 引入页面的css样式 -->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<!-- 一 搭建swiper animate容器     -->
+    <!-- 1.引入swiper对应的文件 -->
+    <!-- 2.引入swiper对应的结构 -->
+    <!-- 3.初始化swiper -->
+    <!-- 4.删除不必要的结构 -->
+    <!-- 5.引入swiper animate相应的文件 -->
+    <!-- 6.引入swiper animate相应的初始js代码 - on:{} -->
+    <!-- 7.给要加动画的元素添加ani类名,然后设置对应的属性
+         swiper-animate-effect="动画的类型"
+         swiper-animate-duration="动画的执行时间(记得带单位s)" 
+         swiper-animate-delay="动画的延迟时间(记得带单位s)"
+    -->
+<!-- 二 写静态页面 -->
+<!-- 三.添加动画 -->
+<!-- 四 给播放音乐添加旋转动画 -->
+<!-- 五.播放音乐
+        1.点击对应的按钮播放
+
+
+-->
+    <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <!-- 内容 -->
+                <div class="swiper-slide">
+                    <!-- 定义一个背景 -->
+                    <div class="bg ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s"></div>
+                    <!-- 飞镖 -->
+                    <div class="fb ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1.9s"></div>
+                    <!-- 火箭 -->
+                    <div class="rocket ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.8s"></div>
+                    <!-- 笔记本 -->
+                    <div class="notepan ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="1s"></div>
+                    <div class="mail ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="1.2s"></div>
+                    <div class="clock ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="1.4s"></div>
+                    <!-- 个人简历 -->
+                    <h2 class="resume ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1.9s">个人简历</h2>
+                    <!-- <p class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">内容</p> -->
+                
+                </div>
+                <div class="swiper-slide">
+                  <!-- 定义一个背景 -->
+                  <div class="bg ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s"></div>
+                  <h2 class="personalDetails ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.8s">个人信息</h2>
+                  <!-- 左边 -->
+                  <div class="basicInformation ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="1s">基本信息</div>
+                  <p class="name ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.2s">姓名：华大大</p>
+                  <p class="age ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.3s">年龄：23岁</p>
+                  <p class="educationBackground ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.4s">学历：超大专</p>
+                  <p class="workExperience ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.5s">工作经验：6年</p>
+                  <div class="linkman ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.3s">专业及联系</div>
+                  <p class="major ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.5s">专业：H5</p>
+                  <p class="schoolTag ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.6s">毕业院校：家里蹲工程学院</p>
+                  <p class="presentAddress ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.7s">现住地址：中国成都</p>
+                  <p class="tel ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.8s">联系电话：9090950</p>
+                  <p class="eMail ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.9s">联系邮箱：9090950@qq.com</p>
+                  <!-- 右边 -->
+                  <div class="headimg ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="1.5s"></div>
+                  <div class="penline ani" swiper-animate-effect="zoomInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.7s"></div>
+                  <div class="pen ani" swiper-animate-effect="zoomInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.7s"></div>
+                </div>
+                <div class="swiper-slide">
+                  <!-- 定义一个背景 -->
+                  <div class="bg ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s"></div>
+                  <h2 class="experience ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="0.5s">工作经验</h2>
+                  <!-- 1 -->
+                  <p class="time1 ani" swiper-animate-effect="zoomInUp" swiper-animate-duration="1s" swiper-animate-delay="1s">2015年至今</p>
+                  <p class="event1 ani" swiper-animate-effect="zoomInDown" swiper-animate-duration="1s" swiper-animate-delay="1.2s">腾讯公司前端技术总监</p>
+                  <!-- 右边 -->
+                  <div class="gear ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="1.4s"></div>
+                  <!-- 2 -->
+                  <div class= "books ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s"></div>
+                  <!-- 右边 -->
+                  <p class="time2 ani" swiper-animate-effect="zoomInUp" swiper-animate-duration="1s" swiper-animate-delay="1.3s">2016年至今</p>
+                  <p class="event2 ani" swiper-animate-effect="zoomInDown" swiper-animate-duration="1s" swiper-animate-delay="1.5s">百度公司前端技术总监</p>
+                  <!-- 3 -->
+                  <p class="time3 ani" swiper-animate-effect="zoomInUp" swiper-animate-duration="1s" swiper-animate-delay="1.6s">2018年至今</p>
+                  <p class="event3 ani" swiper-animate-effect="zoomInDown" swiper-animate-duration="1s" swiper-animate-delay="1.8s">网易公司前端技术总监</p>
+                  <!-- 右边 -->
+                  <div class="briefcase ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="2s" swiper-animate-delay="1.8s"></div>
+                  <!-- 4 -->
+                  <div class="tool ani" swiper-animate-effect="flipInY" swiper-animate-duration="2s" swiper-animate-delay="2s"></div>
+                  <!-- 右边 -->
+                  <p class="time4 ani" swiper-animate-effect="zoomInUp" swiper-animate-duration="1s" swiper-animate-delay="2.0s">2019年至今</p>
+                  <p class="event4 ani" swiper-animate-effect="zoomInDown" swiper-animate-duration="1s" swiper-animate-delay="2.2s">阿里公司前端技术总监</p>
+                </div>
+                <div class="swiper-slide">
+                  
+                </div>
+            </div>          
+            
+            <!-- 如果需要导航按钮 -->
+            <div class="next"></div> 
+            <!-- 播放音乐按钮      -->
+            <div id="playMusic" class="playMusic"></div>
+            <script>
+            //   点击播放音乐  
+                var playMusic  =  document.getElementById("playMusic");
+                var audio = document.createElement("audio");  //创建一个音乐标签
+                audio.src = "music/bgm.mp3" ;   //放入音乐文件
+                audio.setAttribute('loop','loop');  
+                var flag = true;  //定义一个播放的标记
+                playMusic.onclick = function(){            
+                    if(flag){
+                        audio.play();   //点击播放音乐
+                        // 给playMusic添加旋转的类名
+                        playMusic.classList.add("rotate");
+                        playMusic.style.animationPlayState = "running";
+                        flag = false;
+                    }else{
+                        audio.pause();  //音乐暂停
+                        playMusic.style.animationPlayState = "paused";            
+                        flag = true;
+                    }
+                }
+            </script>
+        </div>
+    
+    <script>
+    var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'vertical', // 垂直切换选项
+    loop: true, // 循环模式选项
+    
+    // 如果需要前进后退按钮
+    navigation: {
+      nextEl: '.next'
+    },
+    on:{
+      init: function(){
+        swiperAnimateCache(this); //隐藏动画元素 
+        swiperAnimate(this); //初始化完成开始动画
+      }, 
+      slideChangeTransitionEnd: function(){ 
+        swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
+        //this.slides.eq(this.activeIndex).find('.ani').removeClass('ani'); 动画只展现一次，去除ani类名
+      } 
+    }
+    
+  })  
+
+    </script>
+</body>
+</html>

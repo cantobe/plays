@@ -1,0 +1,275 @@
+
+@font-face{
+    font-family: 'FZQS';
+    src : url('../fonts/FZQS.TTF');
+}
+@font-face{
+    font-family: 'FZZJ';
+    src : url('../fonts/FZZJ-YRXFTJW.TTF');
+}
+/* 初始化swiper的大小 */
+html,body{
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    position: absolute;
+    width: 100%;
+    height: 65px;
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+}
+p{
+    position: absolute;
+    font-size: 14px;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+} 
+/* 第一个页面的样式 */
+
+/* 背景 */
+.bg{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main_text{
+    font-size: 52px;
+    padding: 5px 0;
+    color: rgb(240, 240, 240);
+    text-shadow:1px 1px #3a3a3a;
+    font-family: FZQS;
+}
+.qi{
+    font-size: 52px;
+    font-family: FZZJ;
+}
+/* 第二页 */
+.personalDetails{
+    top: 10%;
+    right: 0;
+}
+.basicInformation{
+    width: 110px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid #ccc;
+    position: absolute;
+    top: 24%;
+    left: 6%;
+}
+.name{
+    top: 32%;
+    left: 8%;
+}
+.age{
+    top: 36%;
+    left: 8%;
+}
+.educationBackground{
+    top: 40%;
+    left: 8%;
+}
+.workExperience{
+    top: 44%;
+    left: 8%;
+}
+.linkman{
+    width: 110px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid #ccc;
+    position: absolute;
+    top: 52%;
+    left: 6%;
+}
+.major{
+    top: 60%;
+    left: 8%;
+}
+.schoolTag{
+    top: 64%;
+    left: 8%;
+}
+.presentAddress{
+    top: 68%;
+    left: 8%;
+}
+.tel{
+    top: 72%;
+    left: 8%;
+}
+.eMail{
+    top: 76%;
+    left: 8%;
+}
+/* 右边 */
+.headimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: url(../img/02-headimg.png) no-repeat #4b494a;
+    background-size: 90%;
+    background-position: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+.penline{
+    width: 135px;
+    height: 55px;
+    background: url(../img/02-penline.png) no-repeat;
+    position: absolute;
+    top:75%;
+    right:7%;
+}
+.pen{
+    background: url(../img/02-pen.png) no-repeat;
+    background-size: 100%;
+    width: 85px;
+    height: 120px;
+    position: absolute;
+    top: 60%;
+    right: 10%;
+}
+/* 第三页 */
+.experience{
+    top: 9%;
+    right: 0;
+}
+.time1{
+    top: 26%;
+    left: 10%;
+}
+.event1{
+    top: 30%;
+    left: 10%;
+}
+.gear{
+    position: absolute;
+    top: 25%;
+    right: 14%;
+    width: 80px;
+    height: 70px;
+    background: url(../img/09-wheels.png) no-repeat;
+    background-size: 100%;
+}
+.time2{
+    top: 41%;
+    right: 35%;
+}
+.event2{
+    top: 46%;
+    right: 25%;
+}
+.books{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width:65px;
+    height: 70px;
+    background: url(../img/03-books.png) no-repeat;
+    background-size: 100%;
+}
+.time3{
+    top: 56%;
+    left: 10%;
+}
+.event3{
+    top: 61%;
+    left: 10%;
+}
+.briefcase{
+    position: absolute;
+    top: 55%;
+    right: 15%;
+    width: 80px;
+    height: 65px;
+    background: url(../img/03-bag.png) no-repeat;
+    background-size: 100%;
+}
+.time4{
+    top: 72%;
+    right: 35%;
+}
+.event4{
+    top: 77%;
+    right: 25%;
+}
+.tool{
+    position: absolute;
+    top:70%;
+    left: 10%; 
+    width: 80px;
+    height: 85px;
+    background: url(../img/03-tools.png) no-repeat;
+    background-size: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* 下一页 */
+.next{
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -25px;
+    z-index: 10;
+    width: 50px;
+    height: 35px;
+    background: url(../img/00-up_guid.gif);
+    background-size: 100%;
+}
+/* 播放音乐 */
+.playMusic{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url(../img/00-musicplayer.svg);
+    background-size: 100%;
+}
+
+.rotate{
+    animation: rotate 2s linear infinite;
+}
+/* 定义旋转动画 */
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
